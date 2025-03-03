@@ -8,18 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		DDBD7FD42D70D449006C0F43 /* Monarch_Place_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD7FD32D70D449006C0F43 /* Monarch_Place_GameApp.swift */; };
-		DDBD7FD62D70D449006C0F43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD7FD52D70D449006C0F43 /* ContentView.swift */; };
 		DDBD7FD82D70D44A006C0F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBD7FD72D70D44A006C0F43 /* Assets.xcassets */; };
 		DDBD7FDC2D70D44A006C0F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBD7FDB2D70D44A006C0F43 /* Preview Assets.xcassets */; };
+		DDC465652D71DE9700C479DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465642D71DE9700C479DF /* ViewController.swift */; };
+		DDC465682D71DEC800C479DF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465672D71DEC800C479DF /* Coordinator.swift */; };
+		DDC4656B2D71DEF200C479DF /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4656A2D71DEF200C479DF /* Loading.swift */; };
+		DDC4656D2D71DEFF00C479DF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4656C2D71DEFF00C479DF /* Menu.swift */; };
+		DDC4656F2D71DF0800C479DF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4656E2D71DF0800C479DF /* Game.swift */; };
+		DDC465762D71DFC800C479DF /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465752D71DFC800C479DF /* Background.swift */; };
+		DDC465782D71E30300C479DF /* Alata-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC465772D71E30300C479DF /* Alata-Regular.ttf */; };
+		DDC4657B2D71E3B600C479DF /* SizeExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4657A2D71E3B600C479DF /* SizeExtention.swift */; };
+		DDC4657D2D71E43200C479DF /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4657C2D71E43200C479DF /* ColorExtention.swift */; };
+		DDC4657F2D71E65700C479DF /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4657E2D71E65700C479DF /* Buttons.swift */; };
+		DDC465812D735E9800C479DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465802D735E9800C479DF /* Model.swift */; };
+		DDC465832D7393BF00C479DF /* YouWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465822D7393BF00C479DF /* YouWin.swift */; };
+		DDC465852D73952200C479DF /* YouLose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465842D73952200C479DF /* YouLose.swift */; };
+		DDC465932D76286900C479DF /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465922D76286900C479DF /* Shop.swift */; };
+		DDC465952D764A8C00C479DF /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465942D764A8C00C479DF /* Rules.swift */; };
+		DDC465972D764C9D00C479DF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465962D764C9D00C479DF /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDBD7FD02D70D449006C0F43 /* Monarch Place Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monarch Place Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBD7FD32D70D449006C0F43 /* Monarch_Place_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monarch_Place_GameApp.swift; sourceTree = "<group>"; };
-		DDBD7FD52D70D449006C0F43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDBD7FD72D70D44A006C0F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDBD7FD92D70D44A006C0F43 /* Monarch_Place_Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Monarch_Place_Game.entitlements; sourceTree = "<group>"; };
 		DDBD7FDB2D70D44A006C0F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC465642D71DE9700C479DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC465672D71DEC800C479DF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DDC4656A2D71DEF200C479DF /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		DDC4656C2D71DEFF00C479DF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		DDC4656E2D71DF0800C479DF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DDC465752D71DFC800C479DF /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		DDC465772D71E30300C479DF /* Alata-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alata-Regular.ttf"; sourceTree = "<group>"; };
+		DDC465792D71E31200C479DF /* Monarch-Place-Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Monarch-Place-Game-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DDC4657A2D71E3B600C479DF /* SizeExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeExtention.swift; sourceTree = "<group>"; };
+		DDC4657C2D71E43200C479DF /* ColorExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
+		DDC4657E2D71E65700C479DF /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		DDC465802D735E9800C479DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DDC465822D7393BF00C479DF /* YouWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouWin.swift; sourceTree = "<group>"; };
+		DDC465842D73952200C479DF /* YouLose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouLose.swift; sourceTree = "<group>"; };
+		DDC465922D76286900C479DF /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		DDC465942D764A8C00C479DF /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		DDC465962D764C9D00C479DF /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +83,15 @@
 		DDBD7FD22D70D449006C0F43 /* Monarch Place Game */ = {
 			isa = PBXGroup;
 			children = (
+				DDC465792D71E31200C479DF /* Monarch-Place-Game-Info.plist */,
 				DDBD7FD32D70D449006C0F43 /* Monarch_Place_GameApp.swift */,
-				DDBD7FD52D70D449006C0F43 /* ContentView.swift */,
+				DDC465692D71DEE600C479DF /* Views */,
+				DDC465632D71DE7000C479DF /* SubViews */,
+				DDC465662D71DEB800C479DF /* Coordinator */,
+				DDC465702D71DF3200C479DF /* Extentions */,
+				DDC465722D71DF5000C479DF /* Fonts */,
+				DDC465742D71DF5E00C479DF /* Sounds */,
+				DDC465712D71DF4800C479DF /* Models */,
 				DDBD7FD72D70D44A006C0F43 /* Assets.xcassets */,
 				DDBD7FD92D70D44A006C0F43 /* Monarch_Place_Game.entitlements */,
 				DDBD7FDA2D70D44A006C0F43 /* Preview Content */,
@@ -67,6 +105,71 @@
 				DDBD7FDB2D70D44A006C0F43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDC465632D71DE7000C479DF /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				DDC465642D71DE9700C479DF /* ViewController.swift */,
+				DDC465752D71DFC800C479DF /* Background.swift */,
+				DDC4657E2D71E65700C479DF /* Buttons.swift */,
+				DDC465822D7393BF00C479DF /* YouWin.swift */,
+				DDC465842D73952200C479DF /* YouLose.swift */,
+				DDC465922D76286900C479DF /* Shop.swift */,
+				DDC465942D764A8C00C479DF /* Rules.swift */,
+				DDC465962D764C9D00C479DF /* Settings.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		DDC465662D71DEB800C479DF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DDC465672D71DEC800C479DF /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DDC465692D71DEE600C479DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4656A2D71DEF200C479DF /* Loading.swift */,
+				DDC4656C2D71DEFF00C479DF /* Menu.swift */,
+				DDC4656E2D71DF0800C479DF /* Game.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDC465702D71DF3200C479DF /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4657A2D71E3B600C479DF /* SizeExtention.swift */,
+				DDC4657C2D71E43200C479DF /* ColorExtention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		DDC465712D71DF4800C479DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDC465802D735E9800C479DF /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDC465722D71DF5000C479DF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DDC465772D71E30300C479DF /* Alata-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DDC465742D71DF5E00C479DF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC465782D71E30300C479DF /* Alata-Regular.ttf in Resources */,
 				DDBD7FDC2D70D44A006C0F43 /* Preview Assets.xcassets in Resources */,
 				DDBD7FD82D70D44A006C0F43 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +243,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBD7FD62D70D449006C0F43 /* ContentView.swift in Sources */,
+				DDC4657D2D71E43200C479DF /* ColorExtention.swift in Sources */,
+				DDC465652D71DE9700C479DF /* ViewController.swift in Sources */,
+				DDC465832D7393BF00C479DF /* YouWin.swift in Sources */,
+				DDC465852D73952200C479DF /* YouLose.swift in Sources */,
+				DDC465762D71DFC800C479DF /* Background.swift in Sources */,
+				DDC4656F2D71DF0800C479DF /* Game.swift in Sources */,
 				DDBD7FD42D70D449006C0F43 /* Monarch_Place_GameApp.swift in Sources */,
+				DDC4657F2D71E65700C479DF /* Buttons.swift in Sources */,
+				DDC4656B2D71DEF200C479DF /* Loading.swift in Sources */,
+				DDC465682D71DEC800C479DF /* Coordinator.swift in Sources */,
+				DDC465972D764C9D00C479DF /* Settings.swift in Sources */,
+				DDC465812D735E9800C479DF /* Model.swift in Sources */,
+				DDC465932D76286900C479DF /* Shop.swift in Sources */,
+				DDC4656D2D71DEFF00C479DF /* Menu.swift in Sources */,
+				DDC4657B2D71E3B600C479DF /* SizeExtention.swift in Sources */,
+				DDC465952D764A8C00C479DF /* Rules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +392,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Monarch-Place-Game-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,7 +403,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -292,7 +411,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "f1.Monarch-Place-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +432,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Monarch-Place-Game-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,7 +443,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -330,7 +451,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "f1.Monarch-Place-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
