@@ -11,6 +11,8 @@ struct Menu: View {
     @EnvironmentObject var coordinator: Coordinator
     @AppStorage("coinCount") var coinCount = 0
     @AppStorage("levelNumber") var levelNumber = 1
+    @AppStorage("music") var music = true
+    @AppStorage("sound") var sound = true
     @State private var showShop = false
     @State private var showRules = false
     @State private var showSettings = false
@@ -75,6 +77,11 @@ struct Menu: View {
             }
             if showSettings {
                 Settings(showSettings: $showSettings)
+            }
+        }
+        .onAppear {
+            if music {
+                SoundManager.instance.playSound(sound: "MainSound")
             }
         }
     }

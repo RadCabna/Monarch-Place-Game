@@ -72,12 +72,33 @@ struct Settings: View {
                             .scaledToFit()
                             .frame(height: screenWidth*0.04)
                             .padding(.top)
+                            .onTapGesture {
+                                openAppStoreForRating()
+                            }
                     }
                         .offset(y: screenWidth*0.02)
                 )
                 .offset(y: screenWidth*0.02)
         }
+        .onChange(of: music) { _ in
+            if music {
+                SoundManager.instance.stopAllSounds()
+                SoundManager.instance.playSound(sound: "MainSound")
+            } else {
+                SoundManager.instance.stopAllSounds()
+            }
+        }
     }
+    
+    func openAppStoreForRating() {
+        guard let appStoreURL = URL(string: "itms-apps://itunes.apple.com/app/id6742779359?action=write-review") else {
+            return
+        }
+        if UIApplication.shared.canOpenURL(appStoreURL) {
+            UIApplication.shared.open(appStoreURL)
+        }
+    }
+    
 }
 
 #Preview {
@@ -97,7 +118,6 @@ struct CustomToggle: ToggleStyle {
                     .scaledToFit()
                     .frame(height: screenWidth*0.035)
             }
-//            .opacity(configuration.isOn ? 1 : 0.3)
             .overlay(
                 ZStack {
                     Image(configuration.isOn ? "toggleOn" : "toggleOff")

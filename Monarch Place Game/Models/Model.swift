@@ -104,4 +104,32 @@ class Arrays {
         [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpRight", haveArrow: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage")],
         [GameCage(cageName: "emptyGameCage", flowerHere: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpLeft", haveArrow: true),  GameCage(cageName: "emptyGameCage", haveBomb: true) ,GameCage(cageName: "emptyGameCage", haveBomb: true)]
         ]
+    
+    static var gameArray11:[[GameCage]] = [
+       [ GameCage(cageName: "emptyGameCage", isItTapped: true, butterflyHere: true, alreadyOpened: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", flowerHere: true)],
+       [GameCage(cageName: "jumpDown", haveArrow: true), GameCage(cageName: "jumpRight", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true)],
+       [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpUp", haveArrow: true)],
+       [GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpRight", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage")]
+        ]
+    
+    static var gameArray12:[[GameCage]] = [
+        [GameCage(cageName: "emptyGameCage", isItTapped: true, butterflyHere: true, alreadyOpened: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", flowerHere: true)],
+        [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage")],
+        [GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "jumpRight", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "jumpUp", haveArrow: true)],
+        [GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage")]
+        ]
+    
+    static var gameArray13:[[GameCage]] = [
+        [GameCage(cageName: "emptyGameCage", isItTapped: true, butterflyHere: true, alreadyOpened: true), GameCage(cageName: "jumpDown", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", flowerHere: true)],
+        [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true)],
+        [GameCage(cageName: "jumpRight", haveArrow: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpUp", haveArrow: true)],
+        [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpUp", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage")]
+        ]
+    
+    static var gameArray14:[[GameCage]] = [
+        [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", isItTapped: true, butterflyHere: true, alreadyOpened: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage", flowerHere: true)],
+        [GameCage(cageName: "jumpDown", haveArrow: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpDown", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage")],
+        [GameCage(cageName: "emptyGameCage"), GameCage(cageName: "jumpRight", haveArrow: true), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage")],
+        [GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "jumpUp", haveArrow: true), GameCage(cageName: "emptyGameCage"), GameCage(cageName: "emptyGameCage", haveBomb: true), GameCage(cageName: "jumpUp", haveArrow: true)]
+        ]
 }

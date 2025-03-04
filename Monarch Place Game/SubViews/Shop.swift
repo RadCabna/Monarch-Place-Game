@@ -11,7 +11,7 @@ struct Shop: View {
     @AppStorage("coinCount") var coinCount = 0
     @AppStorage("whatButterfly") var whatButterfly = 0
     @AppStorage("whatFlag") var whatFlag = 0
-    @State private var butterflyDataArray = UserDefaults.standard.array(forKey: "butterflyDataArray") as? [Int] ?? [2,1,0,0]
+    @State private var butterflyDataArray = UserDefaults.standard.array(forKey: "butterflyDataArray") as? [Int] ?? [2,0,0,0]
     @State private var flagDataArray = UserDefaults.standard.array(forKey: "flagDataArray") as? [Int] ?? [2,0,0,0]
     @State private var butterflyShopArray = Arrays.butterflyShopArray
     @State private var flagShopArray = Arrays.flagShopArray

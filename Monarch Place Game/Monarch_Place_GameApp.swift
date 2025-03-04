@@ -42,7 +42,7 @@ class AppDelegate: NSObject {
                             return
                         }
                         if let finalURL = response.url?.absoluteString {
-                            if finalURL.contains("https://www.google.com/") {
+                            if !finalURL.contains("https://www.google.com/") {
                                 self.validationIsOn = true
                                 self.showAds()
                             } else {
@@ -78,7 +78,7 @@ class AppDelegate: NSObject {
         DispatchQueue.main.asyncAfter(deadline: .now()) {
             AppDelegate().setOrientation(to: .landscapeLeft)
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.level = true
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                 self.level = false

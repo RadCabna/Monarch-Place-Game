@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2641D72D77522300E50BF9 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2641D62D77522300E50BF9 /* SoundManager.swift */; };
+		DD2641DD2D77551C00E50BF9 /* stepSound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641D82D77551C00E50BF9 /* stepSound4.mp3 */; };
+		DD2641DE2D77551C00E50BF9 /* stepSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641D92D77551C00E50BF9 /* stepSound2.mp3 */; };
+		DD2641DF2D77551C00E50BF9 /* flagSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641DA2D77551C00E50BF9 /* flagSound.mp3 */; };
+		DD2641E02D77551C00E50BF9 /* stepSound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641DB2D77551C00E50BF9 /* stepSound3.mp3 */; };
+		DD2641E12D77551C00E50BF9 /* stepSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641DC2D77551C00E50BF9 /* stepSound1.mp3 */; };
+		DD2641E42D77552600E50BF9 /* jumpSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641E22D77552600E50BF9 /* jumpSound.mp3 */; };
+		DD2641E52D77552600E50BF9 /* catchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641E32D77552600E50BF9 /* catchSound.mp3 */; };
+		DD2641E72D77555000E50BF9 /* winSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641E62D77555000E50BF9 /* winSound.mp3 */; };
+		DD2641E92D77558E00E50BF9 /* wrongSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641E82D77558E00E50BF9 /* wrongSound.mp3 */; };
+		DD2641EB2D7755D300E50BF9 /* MainSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD2641EA2D7755D300E50BF9 /* MainSound.mp3 */; };
 		DDBD7FD42D70D449006C0F43 /* Monarch_Place_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD7FD32D70D449006C0F43 /* Monarch_Place_GameApp.swift */; };
 		DDBD7FD82D70D44A006C0F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBD7FD72D70D44A006C0F43 /* Assets.xcassets */; };
 		DDBD7FDC2D70D44A006C0F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBD7FDB2D70D44A006C0F43 /* Preview Assets.xcassets */; };
@@ -26,9 +37,22 @@
 		DDC465932D76286900C479DF /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465922D76286900C479DF /* Shop.swift */; };
 		DDC465952D764A8C00C479DF /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465942D764A8C00C479DF /* Rules.swift */; };
 		DDC465972D764C9D00C479DF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465962D764C9D00C479DF /* Settings.swift */; };
+		DDC465992D77460D00C479DF /* Pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC465982D77460D00C479DF /* Pause.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD2641D62D77522300E50BF9 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		DD2641D82D77551C00E50BF9 /* stepSound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stepSound4.mp3; sourceTree = "<group>"; };
+		DD2641D92D77551C00E50BF9 /* stepSound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stepSound2.mp3; sourceTree = "<group>"; };
+		DD2641DA2D77551C00E50BF9 /* flagSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flagSound.mp3; sourceTree = "<group>"; };
+		DD2641DB2D77551C00E50BF9 /* stepSound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stepSound3.mp3; sourceTree = "<group>"; };
+		DD2641DC2D77551C00E50BF9 /* stepSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stepSound1.mp3; sourceTree = "<group>"; };
+		DD2641E22D77552600E50BF9 /* jumpSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jumpSound.mp3; sourceTree = "<group>"; };
+		DD2641E32D77552600E50BF9 /* catchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = catchSound.mp3; sourceTree = "<group>"; };
+		DD2641E62D77555000E50BF9 /* winSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winSound.mp3; sourceTree = "<group>"; };
+		DD2641E82D77558E00E50BF9 /* wrongSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongSound.mp3; sourceTree = "<group>"; };
+		DD2641EA2D7755D300E50BF9 /* MainSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MainSound.mp3; sourceTree = "<group>"; };
+		DD2641EC2D7755FD00E50BF9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DDBD7FD02D70D449006C0F43 /* Monarch Place Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monarch Place Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBD7FD32D70D449006C0F43 /* Monarch_Place_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monarch_Place_GameApp.swift; sourceTree = "<group>"; };
 		DDBD7FD72D70D44A006C0F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +75,7 @@
 		DDC465922D76286900C479DF /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		DDC465942D764A8C00C479DF /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		DDC465962D764C9D00C479DF /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DDC465982D77460D00C479DF /* Pause.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pause.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				DDC465792D71E31200C479DF /* Monarch-Place-Game-Info.plist */,
+				DD2641EC2D7755FD00E50BF9 /* PrivacyInfo.xcprivacy */,
 				DDBD7FD32D70D449006C0F43 /* Monarch_Place_GameApp.swift */,
 				DDC465692D71DEE600C479DF /* Views */,
 				DDC465632D71DE7000C479DF /* SubViews */,
@@ -118,6 +144,7 @@
 				DDC465922D76286900C479DF /* Shop.swift */,
 				DDC465942D764A8C00C479DF /* Rules.swift */,
 				DDC465962D764C9D00C479DF /* Settings.swift */,
+				DDC465982D77460D00C479DF /* Pause.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -168,6 +195,17 @@
 		DDC465742D71DF5E00C479DF /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				DD2641EA2D7755D300E50BF9 /* MainSound.mp3 */,
+				DD2641E82D77558E00E50BF9 /* wrongSound.mp3 */,
+				DD2641E62D77555000E50BF9 /* winSound.mp3 */,
+				DD2641E32D77552600E50BF9 /* catchSound.mp3 */,
+				DD2641E22D77552600E50BF9 /* jumpSound.mp3 */,
+				DD2641DA2D77551C00E50BF9 /* flagSound.mp3 */,
+				DD2641DC2D77551C00E50BF9 /* stepSound1.mp3 */,
+				DD2641D92D77551C00E50BF9 /* stepSound2.mp3 */,
+				DD2641DB2D77551C00E50BF9 /* stepSound3.mp3 */,
+				DD2641D82D77551C00E50BF9 /* stepSound4.mp3 */,
+				DD2641D62D77522300E50BF9 /* SoundManager.swift */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -230,9 +268,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2641DE2D77551C00E50BF9 /* stepSound2.mp3 in Resources */,
 				DDC465782D71E30300C479DF /* Alata-Regular.ttf in Resources */,
+				DD2641E52D77552600E50BF9 /* catchSound.mp3 in Resources */,
+				DD2641E12D77551C00E50BF9 /* stepSound1.mp3 in Resources */,
+				DD2641E02D77551C00E50BF9 /* stepSound3.mp3 in Resources */,
+				DD2641DD2D77551C00E50BF9 /* stepSound4.mp3 in Resources */,
+				DD2641E92D77558E00E50BF9 /* wrongSound.mp3 in Resources */,
 				DDBD7FDC2D70D44A006C0F43 /* Preview Assets.xcassets in Resources */,
+				DD2641E42D77552600E50BF9 /* jumpSound.mp3 in Resources */,
+				DD2641DF2D77551C00E50BF9 /* flagSound.mp3 in Resources */,
+				DD2641EB2D7755D300E50BF9 /* MainSound.mp3 in Resources */,
 				DDBD7FD82D70D44A006C0F43 /* Assets.xcassets in Resources */,
+				DD2641E72D77555000E50BF9 /* winSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,12 +297,14 @@
 				DDC465852D73952200C479DF /* YouLose.swift in Sources */,
 				DDC465762D71DFC800C479DF /* Background.swift in Sources */,
 				DDC4656F2D71DF0800C479DF /* Game.swift in Sources */,
+				DD2641D72D77522300E50BF9 /* SoundManager.swift in Sources */,
 				DDBD7FD42D70D449006C0F43 /* Monarch_Place_GameApp.swift in Sources */,
 				DDC4657F2D71E65700C479DF /* Buttons.swift in Sources */,
 				DDC4656B2D71DEF200C479DF /* Loading.swift in Sources */,
 				DDC465682D71DEC800C479DF /* Coordinator.swift in Sources */,
 				DDC465972D764C9D00C479DF /* Settings.swift in Sources */,
 				DDC465812D735E9800C479DF /* Model.swift in Sources */,
+				DDC465992D77460D00C479DF /* Pause.swift in Sources */,
 				DDC465932D76286900C479DF /* Shop.swift in Sources */,
 				DDC4656D2D71DEFF00C479DF /* Menu.swift in Sources */,
 				DDC4657B2D71E3B600C479DF /* SizeExtention.swift in Sources */,
@@ -399,10 +449,10 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -439,10 +489,10 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
